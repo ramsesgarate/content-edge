@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   nitro: {
+    preset: 'vercel-edge',
     prerender: {
       crawlLinks: true,
       routes: ['/']
