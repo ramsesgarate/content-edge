@@ -1,5 +1,7 @@
 {
   "private": true,
+  "name": "contend-edge",
+  "version": "1.0.0",
   "files":["dist"],
   "type": "module",
   "module": ".output/server/index.mjs",
