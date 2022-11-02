@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     preset: 'vercel-edge',
     prerender: {
       crawlLinks: true,
-      routes: ['/']
+      routes: ['/', '/sitemap.xml']
     }
   }
 })
