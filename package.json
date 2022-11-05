@@ -10,7 +10,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "vercel-build": "prisma generate && prisma migrate deploy && next build",
+    "vercel-build": "prisma generate && prisma migrate deploy && nuxt build",
     "prisma:generate": "prisma generate",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
