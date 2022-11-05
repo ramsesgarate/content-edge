@@ -11,6 +11,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "vercel-build": "prisma generate && prisma migrate deploy && next build",
+    "prisma:generate": "prisma generate",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
