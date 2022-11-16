@@ -12,6 +12,7 @@
     "dev": "nuxt dev",
     "vercel-build": "prisma generate && prisma migrate deploy && nuxt build",
     "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
@@ -22,6 +23,7 @@
     "sitemap": "7.1.1"
   },
   "dependencies": {
-    "@prisma/client": "4.6.1"
+    "@prisma/client": "4.6.1",
+    "zod": "^3.19.1"
   }
 }
