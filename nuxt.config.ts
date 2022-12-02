@@ -1,6 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', 'nuxt-windicss', '@nuxtjs/critters'],
+  modules: ['nuxt-windicss', '@nuxtjs/critters', '@nuxt/content'],
   nitro: {
     prerender: {
       crawlLinks: true,
