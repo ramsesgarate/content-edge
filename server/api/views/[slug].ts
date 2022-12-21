@@ -12,13 +12,11 @@ export default defineEventHandler(async (event) => {
         try {
           let post = await getPost(slug);
 
-          console.log(post)
           return {
             views: post?.views || 1,
             slug,
           };
         } catch (error: any) {
-          console.error(error.message);
           throw createError({
             statusCode: 500,
             statusMessage: error.message,
@@ -33,7 +31,6 @@ export default defineEventHandler(async (event) => {
             views: createdPost?.views || 1,
           };
         } catch (error: any) {
-          console.error(error.message);
           throw createError({
             statusCode: 500,
             statusMessage: error.message,
@@ -48,7 +45,6 @@ export default defineEventHandler(async (event) => {
         });
     }
   } catch (e: any) {
-    console.log(e.message);
     throw createError({
       statusCode: 500,
       statusMessage: e.message,
