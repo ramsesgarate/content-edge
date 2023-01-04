@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '/api/**': { cors: true },
   },
   nitro: {
+    preset: 'vercel-edge',
     prerender: {
       crawlLinks: true,
       routes: ['/', '/sitemap.xml']
