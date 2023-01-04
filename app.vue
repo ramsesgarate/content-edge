@@ -1,18 +1,10 @@
 <template>
-  <div class="bg-gray-900 text-gray-200">
-    <header>
-      <NuxtLink to="/">Home</NuxtLink>
-      <nav>
-        <ul>
-          <li>
-            <NuxtLink to="/blog">Blog</NuxtLink>
-          </li>
-           <li>
-            <NuxtLink to="/about">Sobre mi</NuxtLink>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <NuxtPage />
-  </div>
+  <Body class="text-gray-800 bg-gray-100 antialiased">
+    <Header/>
+    <main class="lg:(px-0) md:(max-w-900px pb-20 px-8) sm:(pb-16 px-6) mx-auto max-w-full px-4 py-7 pb-10">
+
+      <NuxtPage />
+    </main>
+    <Footer />
+  </Body>
 </template>
