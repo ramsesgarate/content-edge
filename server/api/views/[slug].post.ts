@@ -7,7 +7,7 @@ export default defineEventHandler(async (event) => {
   const params = getRouterParams(event);
   const slug = z.string().parse(params.slug);
 
-  let createdPost: Post = await upsertPost(slug);
+  let post: Post = await upsertPost(slug);
 
-  return createdPost?.views || 1;
+  return post?.views || 1;
 });
