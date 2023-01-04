@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   modules: ['nuxt-icon', 'nuxt-windicss', '@nuxtjs/critters', '@nuxt/content'],
   routeRules: {
-    '/blog/**': { swr: true },
+    '/blog/**': { swr: 360 },
     '/api/**': { cors: true },
   },
   nitro: {
