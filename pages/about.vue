@@ -1,3 +1,10 @@
+<script setup lang="ts">
+definePageMeta({
+  title: 'About',
+  description: 'Test description for about',
+})
+</script>
+
 <template>
   <div>
     <section class="py-20 sm:py-24">

@@ -1,3 +1,10 @@
+<script setup lang="ts">
+definePageMeta({
+  title: 'Blog',
+  description: 'Test description for blog',
+})
+</script>
+
 <template>
   <div>
     <section class="pt-20 sm:pt-24">

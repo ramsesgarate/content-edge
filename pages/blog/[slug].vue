@@ -6,6 +6,11 @@ const views = await useViews(route.params.slug)
 const path = route.path
 
 const { data: article } = await useAsyncData(`content:blog-${path}`, () => queryContent(path).findOne());
+
+definePageMeta({
+  title: 'Post',
+  description: 'Post description about test',
+})
 </script>
 
 <template>
