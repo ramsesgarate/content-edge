@@ -9,8 +9,8 @@ export default defineNuxtConfig({
       titleSeparator: '·',
       siteUrl: 'https://content-edge.vercel.app/',
       siteName: 'Content Edge',
-      siteDescription: 'Open source template for play with nuxt Nuxt.',
-      language: 'es-ES',
+      siteDescription: 'Open source template for play with NuxtJs.',
+      language: 'en',
     },
   },
   routeRules: {
